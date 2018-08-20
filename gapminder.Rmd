@@ -38,6 +38,7 @@ Visualize the relationship between GDP and life expectancy for
 countries in Europe in 1952 using a scatter plot.
 
 ```{r eu_52}
+plot(rnorm(100), rnorm(100))
 ```
 
 ### Exercise 3
