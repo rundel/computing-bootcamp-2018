@@ -1,6 +1,6 @@
 ---
 title: "Gapminder Exercise Template"
-author: "Mine Cetinkaya-Rundel"
+author: "Colin Rundel"
 date: "`r Sys.Date()`"
 output: html_document
 ---
@@ -29,6 +29,7 @@ gap <- read_csv("https://bit.ly/gap_data")
 How many observations are in this dataset?
 
 ```{r nrow}
+nrow(gap)
 ```
 
 ### Exercise 2
